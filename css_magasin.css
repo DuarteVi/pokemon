@@ -1,0 +1,81 @@
+body { 
+	background: url('imagesPoke/boutiquePokemon.jpg') no-repeat center fixed; 
+	background-size:cover;
+}
+
+div.bouton#retour{
+	background-color: #EDC14A;
+	border:15px solid #D8A61D;
+	display: inline-block;
+	vertical-align: bottom;
+}
+div.bouton#retour:active{
+	border:15px solid white;
+}
+div.bouton#acheter,div.bouton#vendre{
+	background-color: #2E9AFE;
+	border:15px solid #0174DF;
+	width: 80%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: block;
+	margin-left: 0;
+	margin-right: auto;
+}
+div.bouton#acheter:active,div.bouton#vendre:active{
+	border:15px solid white;
+}
+div#argent{
+	background-color: white;
+	border:15px solid #D8A61D;
+	width: 80%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: block;
+	margin-left: 0;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 50px 50px 50px 50px;
+}
+div#commercer{
+	width: 30%;
+	display: inline-block;
+	vertical-align: middle;
+}
+div#acheterVendre{
+	border:10px solid #0174DF;
+	width: 30%;
+	height: 90%;
+	min-height: 100px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 1%;
+	background-color: white;
+	overflow: auto;
+	opacity: 0.8;
+	border-radius: 50px 50px 50px 50px;
+	
+}
+div#acheterVendre:hover{
+	opacity: 1;
+}
+div#acheterVendre table{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+div#innerAcheterVendre{
+	margin-top: 40%;
+}
+img#objet{
+	height: 50px;
+	width: auto;
+}
+img#CT{
+	height: 25px;
+	width: auto;
+}
+img#dollar{
+	height: 15px;
+	width: auto;
+}

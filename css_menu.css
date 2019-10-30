@@ -1,0 +1,61 @@
+body { 
+	background: url('imagesPoke/fondmenu.jpg') no-repeat center fixed; 
+	background-size:cover;
+}
+
+div.bouton#Sac{
+	background-color: #EDC14A;
+	border:15px solid #D8A61D;
+}
+div.bouton#Sac:active{
+	border:15px solid white;
+}
+div.bouton#Safari{
+	background-color: #32C524;
+	border:15px solid #3DAC33;
+}
+div.bouton#Safari:active{
+	border:15px solid white;
+}
+div.bouton#Ordinateur{
+	background-color: #B5BEB4;
+	border:15px solid #979C97;	
+}
+div.bouton#Ordinateur:active{
+	border:15px solid white;
+}
+div.bouton#Magasin{
+	background-color: #4078D9;
+	border:15px solid #3763B0;
+}
+div.bouton#Magasin:active{
+	border:15px solid white;
+}
+div.bouton#Pokecentre{
+	background-color: #F11C27;
+	border:15px solid #BE030D;
+}
+div.bouton#Pokecentre:active{
+	border:15px solid white;
+}
+div.bouton#Combat{
+	background-color: #CE9B5D;
+	border:15px solid #AE7E43;
+}
+div.bouton#Combat:active{
+	border:15px solid white;
+}
+div.bouton#Info{
+	background-color: #81DAF5;
+	border:15px solid #58D3F7;
+}
+div.bouton#Info:active{
+	border:15px solid white;
+}
+div.bouton#Deconnexion{
+	background-color: #E6E6E6;
+	border:15px solid #D8D8D8;
+}
+div.bouton#Deconnexion:active{
+	border:15px solid white;
+}

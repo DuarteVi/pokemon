@@ -1,0 +1,525 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+	html { 
+		overflow: hidden; 
+		margin-left: auto;
+    	margin-right: auto;
+	}
+body { 
+	background: url('imagesPoke/sac.png') no-repeat center fixed; 
+	background-size:cover;
+}
+table#menu {
+  border: 3px solid black;
+  padding: 2.5%;
+  background-color: transparent;
+  border-radius: 50px 50px 50px 50px;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+table#menu td:hover {
+	background-color: brown;
+
+
+}
+table#menu td{
+	background: rgba(255, 255, 255, 1);
+	border-radius: 50px 50px 50px 50px;
+	border: 3px solid black;
+	padding: 50px ;
+}
+#menu{
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 60%;
+	left: 30% ;
+
+
+}
+#pokeball{
+height:  50px ;
+vertical-align: middle;
+}
+
+
+#objet{
+position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 60%;
+	left: 70% ;
+}
+#pokebal{
+width : 250px;
+padding: 25px ; 
+position: absolute ;
+transform: translateX(-50%) translateY(-50%);
+	top: 30%;
+	left: 60%;
+	border:  5px solid black ; 
+border-radius: 50px 50px 50px 50px;
+background-color: white;
+}
+#Hyperball{
+width : 250px;
+padding: 25px ; 
+position: absolute ;
+transform: translateX(-50%) translateY(-50%);
+	top: 30%;
+	left: 80%;
+	border:  5px solid black ; 
+border-radius: 50px 50px 50px 50px;
+background-color: white;
+}
+#superball{
+width : 250px;
+padding: 25px ; 
+position: absolute ;
+transform: translateX(-50%) translateY(-50%);
+	top: 30%;
+	left: 75%;
+	border:  5px solid black ; 
+border-radius: 50px 50px 50px 50px;
+background-color: white;
+}
+#popo{
+width : 250px;
+padding: 25px ; 
+position: absolute ;
+transform: translateX(-50%) translateY(-50%);
+	top: 85%;
+	left: 60%;
+	border:  5px solid black ; 
+border-radius: 50px 50px 50px 50px;
+background-color: white;
+}
+#superpo{
+width : 250px;
+padding: 25px ; 
+position: absolute ;
+transform: translateX(-50%) translateY(-50%);
+	top: 85%;
+	left: 75%;
+	border:  5px solid black ; 
+border-radius: 50px 50px 50px 50px;
+background-color: white;
+}
+#Hyperpo{
+width : 250px;
+padding: 25px ; 
+position: absolute ;
+transform: translateX(-50%) translateY(-50%);
+	top: 85%;
+	left: 80%;
+	border:  5px solid black ; 
+border-radius: 50px 50px 50px 50px;
+background-color: white;
+}
+table#objet{
+  border: 3px solid black;
+  padding: 2%;
+  background-color: transparent;
+  border-radius: 50px 50px 50px 50px;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+table#objet td:hover {
+	background-color: brown;
+
+
+}
+table#objet td{
+	background: rgba(255, 255, 255, 1);
+	border-radius: 50px 50px 50px 50px;
+	border: 2px solid black;
+	padding: 25px ;
+
+}
+
+img#pokemonimage{
+	width: 100px;
+	height: 100px;
+
+}
+
+
+div#vieMax{
+	width: 100px;
+	height: 20px;
+	border:  1px solid black ; 
+border-radius: 50px 50px 50px 50px;
+overflow: hidden;
+text-align: center;
+}
+div#vieMax div{
+	height: 100%;
+} 
+ol#equipe{
+	 border: 3px solid black;
+	 padding: 2%;
+  background-color: transparent;
+  border-radius: 50px 50px 50px 50px;
+   background: rgba(0, 0, 0, 0.3);
+   position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50%;
+	left: 70% ;
+	height: 80%;
+	width: 200px;
+	overflow: auto;
+	max-height: 1000px;
+}
+ol#equipe li{
+	border: 2px solid black;
+	border-radius: 50px 50px 50px 50px;
+	background-color: white;
+	text-align: center; 
+}
+ol#equipe li:hover{
+	background-color: brown;
+	color: white;
+}
+ol li div#vieMax{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+ol li:hover {
+	background-color: brown;
+}
+#divcarte{
+	position: absolute;
+	min-height: 90%;
+	min-width: 90%;
+	transform: translateX(-50%) translateY(-50%);
+	left: 50%;
+	top: 50%;
+border: 5px solid black;
+ overflow: hidden;
+}
+#cartemonde{
+
+position:absolute;
+z-index:100;
+height: 100%;
+width: 100%;
+
+
+}
+#fermer{
+	position:absolute;
+	z-index:120;
+	right: 0%;
+	height: 40px;
+	width: 40px;
+}
+#fermer:hover{
+
+background-color: red;
+color: white;
+border: 2px solid black;
+
+
+
+
+}
+ol#pokedexInfo{
+
+ border: 3px solid black;
+	 padding: 2%;
+  background-color: transparent;
+  border-radius: 50px 50px 50px 50px;
+   background: rgba(0, 0, 0, 0.3);
+   position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50%;
+	left: 70% ;
+	height: 80%;
+	width: 500px;
+	overflow: auto;
+	max-height: 1000px;
+
+}
+ol#pokedexInfo li{
+	border: 2px solid black;
+	border-radius: 50px 50px 50px 50px;
+	background-color: white;
+}
+ol#pokedexInfo li img#pkdex{
+	width: 100px;
+	height: 100px;
+	left: 0%;
+}
+ol#pokedexInfo li:hover{
+	background-color: brown;
+	color:white;
+}
+.tabpokdex{
+	text-align: center;
+	width: 100%;
+}
+#infoPokedex{
+ border: 3px solid black;
+	 padding: 2%;
+  background-color: transparent;
+  border-radius: 50px 50px 50px 50px;
+   background: beige;
+   position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50% ;
+	left: 70% ;
+	height: 80%;
+	width: 500px ;
+	overflow: hidden;
+	max-height: 1000px ;
+	z-index: 10 ;
+}
+
+
+.colonne {
+display: inline-block;
+margin-right: 50px ;
+
+}
+#block1  {
+padding: 10px ;
+display: inline-block;
+
+
+}
+#block2  {
+padding: 10px ;
+display: block;
+border: 2px solid black;
+position: absolute;
+top: 30% ;
+left: -2px;
+right: 0;
+}
+/*#block5  {
+padding: 10px ;
+display: inline-block;
+border: 2px solid black;
+position: absolute;
+top: 30% ;
+left: 0;
+right: 0;
+}*/
+#ecrit{
+
+	position: absolute;
+	top: 55% ;
+	left: 40% ;
+	font-family: URW Chancery L, cursive ;
+	font-size: 25px ;
+}
+#ecrit2{
+
+	position: absolute;
+	top: 25% ;
+	left: 30% ;
+	font-family: URW Chancery L, cursive ;
+	font-size: 25px ;
+}
+#block4  {
+padding: 10px ;
+display: inline-block;
+border: 2px solid black;
+position: absolute;
+top: 60% ;
+left: -2px;
+right: 0;
+text-align: center;
+
+
+}
+/*#block3  {
+padding: 10px ;
+display: inline-block;
+border: 2px solid black;
+position: absolute;
+top: 65% ;
+left: 0;
+right: 0;
+}*/
+
+#ligne{
+padding: 2px;
+border: 2px solid black;
+background-color: grey;
+border-radius: 50px 50px 50px 50px;
+margin-bottom: 10px ;
+min-width: 100px;
+text-align: center;
+}
+
+#type1{
+border: 2px solid grey;
+background-color: grey;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+
+}
+#type2{
+	border: 2px solid brown;
+background-color: brown;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+#type3{
+	border: 2px solid #000080;
+background-color: #000080;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+color: white;
+}
+#type4{
+	border: 2px solid blue;
+background-color: blue;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+color: white;
+}
+#type5{
+	border: 2px solid yellow;
+background-color: yellow;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+#type6{
+	border: 2px solid #EE82EE;
+background-color: #EE82EE;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+#type7{
+	border: 2px solid red;
+background-color: red;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+#type8{
+	border: 2px solid #00FFFF;
+background-color: #00FFFF;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+#type9{
+	border: 2px solid #F0E68C;
+background-color: #F0E68C;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+
+#type10{
+	border: 2px solid #F0F8FF;
+background-color: #F0F8FF;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+#type11{
+	border: 2px solid green;
+background-color: green;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+#type12{
+	border: 2px solid #8A2BE2;
+background-color: #8A2BE2;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+#type13{
+	border: 2px solid #FF00FF;
+background-color: #FF00FF;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+#type14{
+	border: 2px solid 	#CD853F;
+background-color: 	#CD853F;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+#type15{
+	border: 2px solid 	#F5DEB3;
+background-color: 	#F5DEB3;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+#type16{
+	border: 2px solid 	#4B0082;
+background-color: 	#4B0082;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+color: white;
+}
+#type17{
+	border: 2px solid #0F1C54;
+background-color: #0F1C54;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+color: white;
+}
+#type18{
+	border: 2px solid #87CEFA;
+background-color: #87CEFA;
+border-radius: 50px 50px 50px 50px;
+padding: 3px;
+}
+img#impok{
+position: absolute;
+width: 100px;
+height: 100px;
+top: 20px;
+right: 20px ;
+border : 10px solid grey ; 
+border-style: inset;
+
+padding: 20px;
+
+}
+#nom{
+
+position: absolute;
+	top: 5% ;
+	left: 25% ;
+	font-family: URW Chancery L, cursive ;
+	font-size: 50px ;
+display: inline-block;
+}
+#fermerinfo{
+
+position:absolute;
+z-index:50;
+bottom: 10% ;
+left: 45% ;
+height: 40px;
+width: 40px;
+
+
+}
+#fermerinfo:hover{
+
+background-color: grey;
+color: white;
+border: 2px solid black;
+
+
+
+
+
+}
+div.bouton#retour{
+	background-color: #EDC14A;
+	border:15px solid #D8A61D;
+	position: absolute;
+	top: 70%;
+	left: 5%;
+	z-index: 0;
+	max-width: 100px ;
+	max-height: 100px;
+
+}

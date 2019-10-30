@@ -1,0 +1,87 @@
+body { 
+	background: url('imagesPoke/pikachu.jpg') no-repeat center fixed; 
+	background-size:cover;
+}
+
+table {
+		text-align: center;
+}
+table table{
+	padding-left: 20%;
+}
+img#pokemonimage{
+	width: 30%;
+	height: auto;
+}
+div#eqPokemon table, div#ordinateur table{
+	width: 100%;
+}
+div#eqPokemon table td, div#ordinateur table td{
+		border-top:1px solid black;
+		border-top: 1px solid black;
+	}
+div#eqPokemon table tr:hover, div#ordinateur table tr:hover{
+		background-color: #BDBDBD;
+}
+div#eqPokemon table tr:hover:first-child:hover, div#ordinateur table tr:hover:first-child:hover{
+	background-color: white;
+}
+div.grand{
+	display: block;
+	float: top;
+	width: 98%;
+	height: 500px;
+	padding-top:0;
+}
+div.boite{
+	margin: 10px;
+	display: inline-block;
+	width: 30%;
+	min-width: 360px;
+	height: 550px;
+	float: top;
+	overflow: auto;
+}
+
+div#partie1{
+	overflow-y: auto;
+}
+div#eqPokemon{
+	height: auto;
+	border: solid 1px black;
+	background-color: white;
+	opacity: 0.8;
+	overflow: auto;
+}
+div#eqPokemon:hover{
+	opacity: 1;
+}
+div#ordinateur{
+	border: solid 1px black;
+	background-color: white;
+	opacity: 0.8;
+}
+div#ordinateur:hover{
+	opacity: 1;
+}
+div#InfoPokemon{
+	border: solid 1px black;
+	background-color: white;
+	opacity: 0.8;
+}
+div#InfoPokemon:hover{
+	opacity: 1;
+}
+div.bouton#retour{
+	background-color: #EDC14A;
+	border:15px solid #D8A61D;
+	width: 70%;
+	height: 30px;
+	opacity: 0.8;
+}
+div.bouton#retour:hover{
+	opacity: 1;
+}
+div.bouton#retour:active{
+	border:15px solid white;
+}

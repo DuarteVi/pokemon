@@ -1,0 +1,187 @@
+body { 
+	background: url('imagesPoke/terrain.png') no-repeat center fixed; 
+	background-size:cover;
+}
+
+div.partieBas{
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+div.partieBas div{
+	display: inline-block;
+	width: 10%;
+}
+div.partieBas img{
+	height: 30px;
+	width: auto;
+	vertical-align: middle;
+}
+div#tempsDeBase{
+	display: block;
+	width: 90%;
+	height: 10px;
+	background-color: white;
+	border:2px solid black;
+	border-radius: 10px 10px 10px 10px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	margin: 1%;
+}
+div#temps{
+	height: 100%;
+}
+
+
+
+
+
+div#Soin{
+	background-color: #9A2EFE;
+	border:15px solid #7401DF;
+}
+div#Attaque{
+	background-color: #F11C27;
+	border:15px solid #BE030D;
+}
+div#Pokemon{
+	background-color: #04B404;
+	border:15px solid #088A08;
+}
+div#Abandonner{
+	background-color: #81DAF5;
+	border:15px solid #58D3F7;
+}
+
+div#Potion{
+	background-color: #9A2EFE;
+	border:15px solid #7401DF;
+}
+div#SuperPotion{
+	background-color: #FFBF00;
+	border:15px solid #DBA901;
+}
+div#HyperPotion{
+	background-color: #F781D8;
+	border:15px solid #FA58AC;
+}
+div#att{
+	background-color: #6E6E6E;
+	border:15px solid #585858;
+	width: auto; 
+}
+div#pokemonRemplacent{
+	background-color: #6E6E6E;
+	border:15px solid #585858;
+	width: auto; 
+}
+div#retourMenu{
+	background-color: #EDC14A;
+	border:15px solid #D8A61D;
+}
+div#Soin:active,div#Attaque:active,div#Pokemon:active,div#Abandonner:active,div#Potion:active,div#SuperPotion:active,div#HyperPotion:active,div#att:active,div#pokemonRemplacent:active,div#retourMenu:active
+{
+	border:15px solid white;
+}
+
+div.partieBas#partieTexte{
+	background-color: white;
+	border:5px solid black;
+	color: black;
+	text-align: center;
+	width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1%;
+	border-radius: 50px 50px 50px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+div#centrerLesPokemons{
+	display:block;
+	width: 100%;
+	max-width: 800px;
+	min-width: 420px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.pokemonCombat{
+	display:block;
+	width: 400px;
+	height: auto;
+	text-align: center;
+}
+table#pokemonApparuTable{
+	margin-right: 0%;
+	margin-left: auto;
+}
+table#pokemonEquipeTable{
+	margin-left: 0%;
+	margin-right: auto;
+}
+
+div.pokemonCombatInfo{
+	display:block;
+	width: 150px;
+	height: auto;
+	background-color: white;
+	padding: 5px;
+}
+div#pokemonApparuInfo{
+	border-radius: 10px 0px 10px 10px;
+}
+div#pokemonEquipeInfo{
+	border-radius: 0px 10px 10px 10px;
+}
+div#gauche{
+	display: inline-block;
+	float: left;
+}
+div#droite{
+	display: inline-block;
+	float: right;
+}
+div#contourVie{
+	margin-top: 3%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 17px;
+	background-color: white;
+	border: solid 1px black;
+	border-radius: 50px 50px 50px 50px;
+	overflow: hidden;
+}
+img.imgpokemon{
+	display: block;
+	min-height: 200px;
+	height: auto;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translate(0, +70px);
+}
+img#imgPokemonApparu{
+	transform: translate(0, +60px);
+}
+img.imgsol{
+	display: block;
+	width: 400px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}

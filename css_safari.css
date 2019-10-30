@@ -1,0 +1,167 @@
+body { 
+	background: url('imagesPoke/foret.png') no-repeat center fixed; 
+	background-size:cover;
+}
+
+img#fond2{
+	display:block;
+	width: 60%;
+	height: auto;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 60px 60px 60px 60px;
+}
+div#centrerLesPokemons{
+	display:block;
+	width: 100%;
+	max-width: 800px;
+	min-width: 420px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.pokemonCombat{
+	display:block;
+	width: 400px;
+	height: auto;
+	text-align: center;
+}
+table#pokemonApparuTable{
+	margin-right: 0%;
+	margin-left: auto;
+}
+table#pokemonEquipeTable{
+	margin-left: 0%;
+	margin-right: auto;
+}
+
+div.pokemonCombatInfo{
+	display:block;
+	width: 150px;
+	height: auto;
+	background-color: white;
+	padding: 5px;
+}
+div#pokemonApparuInfo{
+	border-radius: 10px 0px 10px 10px;
+}
+div#pokemonEquipeInfo{
+	border-radius: 0px 10px 10px 10px;
+}
+div#gauche{
+	display: inline-block;
+	float: left;
+}
+div#droite{
+	display: inline-block;
+	float: right;
+}
+div#contourVie{
+	margin-top: 3%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 17px;
+	background-color: white;
+	border: solid 1px black;
+	border-radius: 50px 50px 50px 50px;
+	overflow: hidden;
+}
+
+div.partieBas{
+	margin-top: 0%;
+}
+
+div.bouton{
+	padding: 5px;
+	max-height: 30px;
+	opacity: 0.8;
+}
+div.bouton#sacBouton{
+	background-color: #EDC14A;
+	border:15px solid #D8A61D;
+}
+div.bouton#sacBouton:active{
+	border:15px solid white;
+}
+	div.bouton#sacPotion{background-color: #9A2EFE;border:15px solid #7401DF;}
+		div.bouton#normalSoin{background-color: #9A2EFE;border:15px solid #7401DF;}
+		div.bouton#superSoin{background-color: #FFBF00;border:15px solid #DBA901;}
+		div.bouton#hyperSoin{background-color: #F781D8;border:15px solid #FA58AC;}
+	div.bouton#sacPokeball{background-color: #F11C27;border:15px solid #BE030D;}
+		div.bouton#normalBall{background-color: #F11C27;border:15px solid #BE030D;}
+		div.bouton#superBall{background-color: #2E9AFE;border:15px solid #0174DF;}
+		div.bouton#hyperBall{background-color: #424242;border:15px solid #1C1C1C;}
+
+		div.bouton#sacRetour{background-color: #EDC14A;border:15px solid #D8A61D;}
+		div.bouton#normalSoin:active,div.bouton#superSoin:active,div.bouton#hyperSoin:active,div.bouton#normalBall:active,div.bouton#superBall:active,div.bouton#hyperBall:active,div.bouton#sacRetour:active{border:15px solid white;}
+	div.bouton#retourSac{background-color: #EDC14A;border:15px solid #D8A61D; }
+		div.bouton#sacPotion:active,div.bouton#sacPokeball:active,div.bouton#sacRetour:active{border:15px solid white;}
+
+div.bouton#attaqueBouton{
+	background-color: #F11C27;
+	border:15px solid #BE030D;
+}
+div.bouton#attaqueBouton:active{
+	border:15px solid white;
+}
+		div.bouton#attaque0,div.bouton#attaque1,div.bouton#attaque2,div.bouton#attaque3{background-color: #6E6E6E;border:15px solid #585858; width: auto; }
+		div.bouton#attaqueRetour{background-color: #EDC14A;border:15px solid #D8A61D;}
+		div.bouton#attaque0:active,div.bouton#attaque1:active,div.bouton#attaque2:active,div.bouton#attaque3:active,div.bouton#attaqueRetour:active{border:15px solid white;}				
+div.bouton#pokemonBouton{
+	background-color: #04B404;
+	border:15px solid #088A08;
+}
+div.bouton#pokemonBouton:active{
+	border:15px solid white;
+}
+		div.bouton#pokemon0,div.bouton#pokemon1,div.bouton#pokemon2,div.bouton#pokemon3,div.bouton#pokemon4,div.bouton#pokemon5{background-color: #6E6E6E;border:15px solid #585858; width: auto; }
+		div.partieBas img{height: 30px; width: auto;vertical-align: middle; }
+		div.bouton#pokemonRetour{background-color: #EDC14A;border:15px solid #D8A61D; }
+		div.bouton#pokemon0:active,div.bouton#pokemon1:active,div.bouton#pokemon2:active,div.bouton#pokemon3:active,div.bouton#pokemon4:active,div.bouton#pokemon5:active,div.bouton#pokemonRetour:active{border:15px solid white;}	
+div.bouton#fuiteBouton{
+	background-color: #81DAF5;
+	border:15px solid #58D3F7;
+}
+div.bouton#fuiteBouton:active{
+	border:15px solid white;
+}
+
+div.partieBas#partieTexte{
+	background-color: white;
+	border:5px solid black;
+	color: black;
+	text-align: center;
+	width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1%;
+	border-radius: 50px 50px 50px 50px;
+}
+
+
+
+img.imgpokemon{
+	display: block;
+	min-height: 200px;
+	height: auto;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translate(0, +70px);
+}
+img#imgPokemonApparu{
+	transform: translate(0, +60px);
+}
+img.imgsol{
+	display: block;
+	width: 400px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}

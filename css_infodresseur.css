@@ -1,0 +1,106 @@
+body { 
+	background: url('imagesPoke/test4.jpg') no-repeat center fixed; 
+	background-size:cover;
+}
+
+div.bouton#retour{
+	background-color: #EDC14A;
+	border:15px solid #D8A61D;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+div.bouton#retour:active{
+	border:15px solid white;
+}
+div.bouton#divfinfo{
+	width: 80%;
+	height: 70%;
+	background-color: #81DAF5;
+	border:15px solid #58D3F7;
+	overflow: auto;
+}		
+div.bouton#divfinfo div#image{
+	display: inline-block;
+	margin-left: 0%;
+	height: auto;
+	width: 20%;
+	vertical-align: middle;
+}
+div#image img{
+	width: 100%;
+	height: auto;
+}
+div.bouton#divfinfo div#boiteInfoDresseur{
+	background-color: white;
+	display: inline-block;
+	margin: 1%;
+	padding: 1%;
+	height: auto;
+	width: 40%;
+	min-width: 400px;
+	border-radius: 50px 50px 50px 50px;
+	vertical-align: middle;
+}
+div#barrexpMax{
+	width: 100px;
+	height: 10px;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 50px 50px 50px 50px;
+}
+div#barrexp{
+	width: 100%;
+	height: 100%;
+	background-color: #01A9DB;
+}
+div.bouton#divfinfo div#boiteInfoDresseur table{
+	background-color: #81DAF5;
+	display: block;
+	text-align: left;
+	height: auto;
+	width: auto;
+	margin: 3%;
+	padding: 5%;
+	border-radius: 50px 50px 50px 50px;
+}
+div#amis{
+	text-align: center;
+	width: 20%;
+	height: 70%;
+	overflow: auto;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid white;
+	padding: 1%;
+	border-radius: 10px 10px 10px 10px;
+}
+div#nouveauxAmi, div#voirProfil, div#amiConfirmer{
+	display: block;
+	width: auto;
+	height: auto;
+	min-height: 30px;
+	background-color: #81DAF5;
+	margin-bottom: 3%;
+	border-radius: 10px 10px 10px 10px;
+	border: 10px solid white;
+	padding: 3%;
+}
+div.rechercherAmi{
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 1px;
+	margin-right: auto;
+	margin-left: auto;
+}
+div.rechercherAmi div{
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 1px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px 10px 10px 10px;
+	border:3px solid white;
+}

@@ -1,0 +1,45 @@
+/*body { 
+	background-image: url('imagesPoke/fondAccueil.jpg');
+ }*/
+ input{
+ 	background-color: transparent;
+ 	border: none;
+ 	border-bottom: 1px solid black; 
+ }
+
+#loagin{
+	padding: 10px ; 
+	position: absolute ;
+	border :2px black solid;
+	background: rgba(255, 255, 255, 0.3);
+	transform: translateX(-50%) translateY(-30%);
+	top: 30%;
+	left: 50%;
+
+}
+#entrée{
+	border: 1px black solid;
+	margin-top: 5px ;
+}
+#new{
+
+padding: 10px ; 
+	position: absolute ;
+	border :2px black solid;
+	background: rgba(255, 255, 255, 0.3);
+	transform: translateX(-50%) translateY(-30%);
+	top: 30%;
+	left: 50%;
+
+
+}
+#bouton{
+	display: inline-block;
+	position: absolute;
+	top: 70%;
+	left: 40%;
+}
+#envoie{
+	border: 1px black solid;
+
+}

@@ -1,0 +1,129 @@
+body { 
+	background-image: url('imagesPoke/fondegradé.jpg'); 
+ }
+
+#chen{
+position: absolute ;
+transform: translateX(-50%) translateY(-30%);
+	top: 30%;
+	left: 50%;
+
+}
+#fille{
+	position: absolute;
+	transform: translateX(-10%) translateY(-30%);
+	top: 30%;
+	left: 10%;
+	visibility: hidden;
+
+}
+#homme{
+	position: absolute;
+	transform: translateX(-90%) translateY(-30%);
+	top: 30%;
+	left: 90%;
+	visibility: hidden;
+
+}
+#bulbi{
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 75%;
+	left: 30%;
+	visibility: hidden;
+}
+#salameche{
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 75%;
+	left: 50%;
+	visibility: hidden;
+}
+#carapute{
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 75%;
+	left: 70%;
+	visibility: hidden;
+}
+#pseudo{
+position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 75%;
+	left: 70%;
+}
+#carapute:hover{
+	border-radius: 50px 50px 50px 50px;
+	border:  2px solid black ;
+}
+#salameche:hover{
+	border-radius: 50px 50px 50px 50px;
+	border:  2px solid black ;
+}
+#bulbi:hover{
+	border-radius: 50px 50px 50px 50px;
+	border:  2px solid black ;
+}
+#fille:hover{
+	border-radius: 50px 50px 50px 50px;
+	border:  2px solid black ;
+}
+#homme:hover{
+	border-radius: 50px 50px 50px 50px;
+	border:  2px solid black ;
+}
+
+#texte{
+padding: 100px ; 
+position: absolute ;
+transform: translateX(-50%) translateY(-50%);
+	top: 75%;
+	left: 50%;
+	border:  5px solid black ; 
+border-radius: 50px 50px 50px 50px;
+background-color: white;
+}
+.pseudo{
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 80%;
+	left: 50%;
+}
+.buton{
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 85%;
+	left: 50%;
+	background-color: transparent;
+ 	border: 1px solid  black;
+
+}
+.non{
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 85%;
+	left: 45%;
+	background-color: transparent;
+ 	border: 1px solid  black;
+
+}
+.oui{
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 85%;
+	left: 50%;
+	background-color: transparent;
+ 	border: 1px solid  black;
+
+}
+#argent{
+
+height:  15px ;
+vertical-align: middle;
+
+
+}
+#pokeball{
+height:  50px ;
+vertical-align: middle;
+}
